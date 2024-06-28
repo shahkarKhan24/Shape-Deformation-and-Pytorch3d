@@ -4,6 +4,8 @@ Implementing 3D deformation using 2D guidance
 
 Introducing adversarial loss while mesh deformation with 2D images.
 
-Introducing attention layer into discriminator model to get more accurate result. Self-attention mechanisms capture dependencies between pixels or regions, enabling the model to focus on relevant parts of the input.
+Introducing the attention layer into the discriminator model to get more accurate results. Self-attention mechanisms capture dependencies between pixels or regions, enabling the model to focus on relevant parts of the input.
 
-Visualizing and analyzing the result of all the approaches while also evaluating their losses.
+Visualizing and analyzing the result of all the approaches while also evaluating their losses.
+
+<h2>First Approach</h2>
