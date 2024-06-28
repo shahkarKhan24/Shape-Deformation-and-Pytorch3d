@@ -1,4 +1,4 @@
-<h2>Generating a 2D dataset from a target mesh
+<h2>Generating a 2D dataset from a target mesh</h2>
 • Implementing 3D deformation using 2D guidance
 • Introducing adversarial loss while mesh deformation
 with 2D images
