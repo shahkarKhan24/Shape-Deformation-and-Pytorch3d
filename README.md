@@ -1,4 +1,4 @@
-<h2>Generating a 2D dataset from a target mesh</h2><a href= "https://colab.research.google.com/github/shahkarKhan24/Anomaly-Detection-Using-Adverserial-Training/blob/main/DL_Baseline_Non_Sota_PyLightning.ipynb?authuser=1">   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+<h2>Generating a 2D Dataset From a Target mesh</h2><a href= "https://colab.research.google.com/github/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Code.ipynb">   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 
 Implementing 3D deformation using 2D guidance
 
