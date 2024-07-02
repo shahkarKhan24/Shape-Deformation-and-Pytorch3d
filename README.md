@@ -24,11 +24,13 @@ First, we tried to use a simple 2D-3D approach, where we fed our 2D data which a
 <h2>Second Approach</h2>
 The second method we use where we try to introduce adversarial loss into our training loop to get a better result. For this purpose we need to design a separate discriminator type model and feed it the predicted 2D images of our source mesh as well as the 2D images of our target mesh. The final result from this approach was a bit fuzzy then the simple method we tried before but it was still acceptable given half the training time.
 <div>
-<img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/Aproach%202.png" width="400" alt="A1"/>
+<img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/Aproach%202.png" width="400" alt="A2"/>
 </div>
 
 
-
-
 <h2>Third Approach</h2>
-The other approach we tried is to introduce a selfattention layer into our discriminator model. The selfattention mechanism is a technique commonly used in deep learning models, particularly in natural language processing (NLP) and computer vision tasks. It allows the model to weigh the importance of different input elements when making predictions. In the context of images, self-attention mechanisms capture dependencies between pixels or regions, enabling the model to focus on relevant parts of the input. In the context of our discriminator, we can integrate self-attention to enable the model to focus on important features of the input image. Here we observe that the final result that is deformed source mesh is quite smooth and matching with the target mesh visually.
+The other approach we tried is to introduce a self-attention layer into our discriminator model. The self-attention mechanism is a technique commonly used in deep learning models, particularly in natural language processing (NLP) and computer vision tasks. It allows the model to weigh the importance of different input elements when making predictions. In the context of images, self-attention mechanisms capture dependencies between pixels or regions, enabling the model to focus on relevant parts of the input. In the context of our discriminator, we can integrate self-attention to enable the model to focus on important features of the input image. Here we observe that the final result that is deformed source mesh is quite smooth and matching with the target mesh visually.
+<div>
+<img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/Aproach%203%20Discriminator%20network.png" width="400" alt="A3"/>
+</div>
+
