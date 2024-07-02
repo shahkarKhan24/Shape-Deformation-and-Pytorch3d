@@ -34,3 +34,16 @@ The other approach we tried is to introduce a self-attention layer into our disc
 <img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/Aproach%203%20Discriminator%20network.png" width="400" alt="A3"/>
 </div>
 
+<h2>Training</h2>
+To analyze our approaches we were mainly focused on the visual result rather than the losses, but still we were keeping track of the all the losses to be as low as possible specially in first approach.
+In the first approach, which was without adversarial loss, we train our model for up to 2000 iteration which WAS more than enough to get our desired shape in smooth and efficient way. In later figure  you can see the source mesh being gradually deform into target mesh over the course of 2000 iteration. We also visualize the mesh in the for of point clouds to get better visual understanding
+<div>
+<img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/training%20A1.png" width="500" alt="TRAINING A1"/>
+</div>
+<h4>Loss of Approach</h4>
+We also keep track of all the four losses and recorded them for each iteration for later evaluation and understanding which can be seen in figure below
+
+<div>
+<img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/Losses.png" width="400" alt="Losses A1"/>
+</div>
+
