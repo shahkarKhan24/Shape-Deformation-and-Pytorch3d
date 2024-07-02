@@ -1,13 +1,10 @@
 <h2>Shape Deformation Using 2D Guidance<a href= "https://colab.research.google.com/github/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Code.ipynb">   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></h2>
-Generating 2D Dataset.
   
-Implementing 3D deformation using 2D guidance.
-
-Introducing adversarial loss while mesh deformation with 2D images.
-
-Introducing the attention layer into the discriminator model to get more accurate results. Self-attention mechanisms capture dependencies between pixels or regions, enabling the model to focus on relevant parts of the input.
-
-Visualizing and analyzing the result of all the approaches while also evaluating their losses.
+-Generating 2D Dataset.
+-Implementing 3D deformation using 2D guidance.
+-Introducing adversarial loss while mesh deformation with 2D images.
+-Introducing the attention layer into the discriminator model to get more accurate results. Self-attention mechanisms capture dependencies between pixels or regions, enabling the model to focus on relevant parts of the input.
+-Visualizing and analyzing the result of all the approaches while also evaluating their losses.
 
 <h2>Dataset</h2>
 To create a dataset we use pytorch3D, first, we load the target object which is a .obj file, which is then converted into vertices and meshes. we experimented with several shapes to deformed, but it should be noted that the more complex the shape is the more time it will take to deform during training
