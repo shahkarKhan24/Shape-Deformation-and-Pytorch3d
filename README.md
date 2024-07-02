@@ -10,7 +10,7 @@ Visualizing and analyzing the result of all the approaches while also evaluating
 <h2>Dataset</h2>
 To create a dataset we use pytorch3D, first, we load the target object which is a .obj file, which is then converted into vertices and meshes. we experimented with several shapes to deformed, but it should be noted that the more complex the shape is the more time it will take to deform during training
 <div>
-<img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/dataset%20.png" width="700" alt="Dataset"/>
+<img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/dataset%20.png" width="500" alt="Dataset"/>
 </div>
 
 
