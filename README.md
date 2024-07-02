@@ -8,10 +8,10 @@ Introducing the attention layer into the discriminator model to get more accurat
 
 Visualizing and analyzing the result of all the approaches while also evaluating their losses.
 <h2>Dataset</h2>
-To create a dataset we use pytorch3D, first, we load the target object which is an .obj file, which is then converted into vertices and meshes. we experimented with several shapes to deformed, but it should be noted that the more complex the shape is the more time it will take to deform during training
+To create a dataset we use pytorch3D, first, we load the target object which is a .obj file, which is then converted into vertices and meshes. we experimented with several shapes to deformed, but it should be noted that the more complex the shape is the more time it will take to deform during training
 
 <h2>First Approach</h2>
-First, we tried to use a simple 2D-3D approach, where we fed our 2D data which are silhouette images of our target mesh from different angles and faces. After feeding that into our training model we try to deform our source mesh into our desired target mesh by learning the deform vertices of our source mesh. We had to train for almost 2000 iterations to get a desired deformed target mesh.
+First, we tried to use a simple 2D-3D approach, where we fed our 2D data which are silhouette images of our target mesh from different angles and faces. After feeding that into our training model we try to deform our source mesh into our desired target mesh by learning the deform vertices of our source mesh. We had to train for almost 2000 iterations to get the desired deformed target mesh.
 
 <h2>Second Approach</h2>
 The second method we use where we try to introduce adversarial loss into our training loop to get a better result. For this purpose we need to design a separate discriminator type model and feed it the predicted 2D images of our source mesh as well as the 2D images of our target mesh. The final result from this approach was a bit fuzzy then the simple method we tried before but it was still acceptable given half the training time.
