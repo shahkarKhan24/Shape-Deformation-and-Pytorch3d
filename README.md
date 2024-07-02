@@ -50,7 +50,7 @@ The training take longer time in this method then the previous one, so we run ou
   <img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/Aproach%202%20losses.png" width="400" alt="Losses A2"/>
 </div>
 
-<h5>Approach 2</h5>
+<h5>Approach 3</h5>
 We train this network also for 1000 iteration and the visual result were quite satisfactory you can observe the final result in below figures and comparison between the simple discriminator network and the complex one. You can clearly see the difference in result in mention figures 10 for the simple discriminator network and the one with self-attention mechanism
 <div>
 <img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/A2%20and%20A3%20compare.png" width="300" alt="TRAINING A3"/>
