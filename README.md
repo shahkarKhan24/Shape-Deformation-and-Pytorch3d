@@ -42,5 +42,19 @@ In the first approach, which was without adversarial loss, we train our model fo
 <img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/training%20A1.png" width="500" alt="TRAINING A1"/>
   <img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/Losses.png" width="400" alt="Losses A1"/>
 </div>
+<h5>Approach 2</h5>
+The training take longer time in this method then the previous one, so we run our training loop for only 1000 iteration. Which is half as much we did in earlier approach. The visual result were a little fuzzy and rough but given that we train it for only 1000 iteration the result was quite acceptable
+
+<div>
+<img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/training%20A2.png" width="500" alt="TRAINING A2"/>
+  <img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/Aproach%202%20losses.png" width="400" alt="Losses A2"/>
+</div>
+
+<h5>Approach 2</h5>
+We train this network also for 1000 iteration and the visual result were quite satisfactory you can observe the final result in below figures and comparison between the simple discriminator network and the complex one. You can clearly see the difference in result in mention figures 10 for the simple discriminator network and the one with self-attention mechanism
+<div>
+<img src="https://github.com/shahkarKhan24/Shape-Deformation-and-Pytorch3d/blob/main/Images/A2%20and%20A3%20compare.png" width="300" alt="TRAINING A3"/>
+</div>
+
 
 
